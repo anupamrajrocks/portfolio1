@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color:#b4b4e4 ;
+    background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
+}
+
+
+.nav_bar{
+    background-color: #6666cc;
+    padding-bottom: 20px;
+}
+.nav-link{
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    background-color: #ececf8;
+    color: #6666cc;    
+    text-decoration: none;           
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #6666cc;
+    background-color: #d9d9f2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  
+  .button:hover {background-color: #ececf8}
+  
+  .button:active {
+    background-color: #d9d9f2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.media-icons{
+    float: right;
+    margin-right: 1%;
+} 
+ 
+.column{
+    padding-top: 5%;
+}
+ 
+#intro-1{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
+}
+#intro-2{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 75px;
+}
+#intro-3{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 25px;
+}
+
+#heading-1{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+
+#bio{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.my-skills{
+    background-color: #ececf8;
+    height: 620px;
+}
+
+#heading-2{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+
+.text-skill-1{
+    font-size: 22px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+#text-skill-2{
+    font-size: 30px;
+    color: #6666cc;
+    font-weight: bolder;
+}
+
+.percent-skill{
+    color: #6666cc;
+}
+
+.th-skill{
+    color: #6666cc;
+    font-size: 28px;
+
+}
+.td-skill{
+    font-size: 40px;
+    text-align: center;
+}
+
+#heading-3{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+
+#contact-me{
+    background-color: #ececf8;
+    height: 350px;
+}
+
+#heading-4{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+.contact-text1{
+    color: #6666cc;
+    font-size: 30px;
+    font-weight: bold;
+}
+#copyright{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
