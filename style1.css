@@ -7,6 +7,13 @@
   scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 body{
     background-color:#b4b4e4 ;
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
