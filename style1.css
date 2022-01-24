@@ -23,6 +23,7 @@ body{
 .nav_bar{
     background-color: #6666cc;
     padding-bottom: 20px;
+    max-width: 768px
 }
 .nav-link{
     color: white;
