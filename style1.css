@@ -7,12 +7,6 @@
   scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    max-width: 100%;
-  }
-}
-
 body{
     background-color:#b4b4e4 ;
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
@@ -24,7 +18,7 @@ body{
     background-color: #6666cc;
     padding-bottom: 20px;
     top: 0; 
-    width: 100%; 
+    width: 100%;
 }
 .nav-link{
     color: white;
