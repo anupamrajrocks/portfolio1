@@ -14,14 +14,13 @@ html, body {
 
 // mobile 
 @media (max-width: 600px) {
-  html, body {
+  html, body, col {
   overflow-x: hidden;
   }
 }
 body{
     background-color:#b4b4e4 ;
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
-    overflow-x: hidden; 
 }
 
 .nav_bar{
