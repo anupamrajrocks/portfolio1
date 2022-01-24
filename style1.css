@@ -13,12 +13,10 @@ body{
     overflow-x: hidden; 
 }
 
-
 .nav_bar{
     background-color: #6666cc;
     padding-bottom: 20px;
     top: 0; 
-    width: 100%;
 }
 .nav-link{
     color: white;
