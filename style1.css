@@ -17,6 +17,7 @@ body{
     background-color:#b4b4e4 ;
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
     overflow-x: hidden; 
+    max-width: 600px;
 }
 
 
