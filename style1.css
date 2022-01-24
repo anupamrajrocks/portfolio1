@@ -13,7 +13,7 @@ html, body {
 }
 
 // mobile 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   html, body {
   overflow-x: hidden;
   }
