@@ -22,7 +22,9 @@ body{
 .nav_bar{
     background-color: #6666cc;
     padding-bottom: 20px;
-    max-width: 620px
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 .nav-link{
     color: white;
