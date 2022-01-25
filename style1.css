@@ -6,24 +6,12 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-html, body {
-  // Smooth scroll always for html tag
-  scroll-behavior: smooth;
-  // scroll-snap-type: y; // <-- snap in y axis
+html,
+body{
+width:100%;
+overflow-x:hidden;
 }
 
-// mobile 
-@media (max-width: 446px) {
-  html, body, col {
-    
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  
-  }
-}
 body{
     background-color:#b4b4e4 ;
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
