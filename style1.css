@@ -6,6 +6,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
 html,
 body{
 width:100%;
@@ -17,10 +18,10 @@ body{
     background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
 }
 
+
 .nav_bar{
     background-color: #6666cc;
     padding-bottom: 20px;
-    top: 0; 
 }
 .nav-link{
     color: white;
@@ -89,7 +90,7 @@ body{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-    text-decoration-style: solid;
+    text-decoration-style: wavy;
     text-decoration-color: #6666cc;
 }
 
@@ -104,7 +105,7 @@ body{
 
 .my-skills{
     background-color: #ececf8;
-    height: 650px;
+    height: 620px;
 }
 
 #heading-2{
@@ -112,7 +113,7 @@ body{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-    text-decoration-style: solid;
+    text-decoration-style: wavy;
     text-decoration-color: #6666cc;
 }
 
@@ -149,7 +150,7 @@ body{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-    text-decoration-style: solid;
+    text-decoration-style: wavy;
     text-decoration-color: #6666cc;
 }
 
@@ -163,7 +164,7 @@ body{
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
-    text-decoration-style: solid;
+    text-decoration-style: wavy;
     text-decoration-color: #6666cc;
 }
 .contact-text1{
@@ -173,7 +174,7 @@ body{
 }
 #copyright{
     background-color: black;
-    height: 100px;
+    height: 50px;
     color: white;
     text-align: center;
     font-size: 25px;
