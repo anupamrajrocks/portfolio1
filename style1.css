@@ -13,183 +13,169 @@ width:100%;
 overflow-x:hidden;
 }
 
-.nav_bar{
-  background-color: black;
-  width: 100%;
-  padding-bottom: 80px;
+body{
+    background-color:#b4b4e4 ;
+    background-image: linear-gradient(to right, #b4b4e4 , #ececf8 );
 }
 
+
+.nav_bar{
+    background-color: #6666cc;
+    padding-bottom: 20px;
+}
 .nav-link{
-  color: white;
-  font-size: 25px;
-  font-family: 'Lobster', cursive;
+    color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 22px;
 }
 
 .nav-link:hover {
-  background-color: #ececf8;
-  color: black;    
-  text-decoration: none;           
+    background-color: #ececf8;
+    color: #6666cc;    
+    text-decoration: none;           
 }
-
-body{
-  background-color: black ;
-  background-image: linear-gradient(to right, black , #404040 );
-}
-
-.media-icons{
-  float: left;
-  margin-left: 3%;
-
-} 
-
-.col{
-  color: white;
-  padding-top: 170px;
-}
-
-#intro-1{
-  font-size: 35px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-}
-
-#intro-2{
-  font-size: 75px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-  text-shadow: 4px 4px gray;
-}
-
-#intro-3{
-  font-size: 30px;
-  font-family: 'Mochiy Pop P One', sans-serif;
-}
-#intro-4{
-  font-size: 25px;
-}
-
-@media only screen and (max-width: 800px) {
-  .img{
-    height: 300px;
-  }
-}
-
-.about-me{
-  padding: auto;
-  text-align: right;
-  color: white;
-  font-size: 60px;
-  margin-right: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px gray;
-}
-
-.box-1{
-  background-color: black;
-  height: 800px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .box-1{
-    height: 1300px;
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #6666cc;
+    background-color: #d9d9f2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: 'Mochiy Pop P One', sans-serif;
   }
   
+  .button:hover {background-color: #ececf8}
+  
+  .button:active {
+    background-color: #d9d9f2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.media-icons{
+    float: right;
+    margin-right: 1%;
+} 
+ 
+.column{
+    padding-top: 5%;
 }
-#about-me-1{
-  color: #c5c3c3cc;
-  font-size: 40px;
+ 
+#intro-1{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 30px;
 }
-#about-me-2{
-  color: #c5c3c3cc;
-  font-size: 20px;
-  text-align: justify;
-  text-justify: inter-word;
+#intro-2{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 75px;
 }
-
-.skill{
-  padding-top: 170px;
-  text-align: left;
-  color: white;
-  font-size: 60px;
-  margin-left: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px gray;
-}
-
-table{
-  font-size: 30px;
-  font-family: 'Bebas Neue', cursive;
-
-}
-
-.skill-percentage{
-  font-size: 60px;
-  font-family: 'Comforter', cursive;
-}
-
-.exp-1{
-  padding: auto;
-  text-align: right;
-  color: white;
-  font-size: 60px;
-  margin-right: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px gray;
-}
-.exp-2{
-  padding: auto;
-  text-align: right;
-  color: rgba(110, 108, 108, 0.774);
-  font-size: 60px;
-  margin-right: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px white;
-}
-.exp-year{
-  font-size: 40px;
-  font-family: 'Comforter', cursive;
+#intro-3{
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 25px;
 }
 
-#my-services{
-  padding: auto;
-  text-align: left;
-  color: white;
-  font-size: 60px;
-  margin-left: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px gray;
+#heading-1{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
 }
 
-.contact-me{
-  padding: auto;
-  text-align: right;
-  color: white;
-  font-size: 60px;
-  margin-right: 2.5%;
-  font-family: 'Lobster', cursive;
-  text-shadow: 4px 4px gray;
+#bio{
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
+.my-skills{
+    background-color: #ececf8;
+    height: 620px;
+}
+
+#heading-2{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+
+.text-skill-1{
+    font-size: 22px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family:'Mochiy Pop P One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+#text-skill-2{
+    font-size: 30px;
+    color: #6666cc;
+    font-weight: bolder;
+}
+
+.percent-skill{
+    color: #6666cc;
+}
+
+.th-skill{
+    color: #6666cc;
+    font-size: 28px;
+
+}
+.td-skill{
+    font-size: 40px;
+    text-align: center;
+}
+
+#heading-3{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
+
+#contact-me{
+    background-color: #ececf8;
+    height: 350px;
+}
+
+#heading-4{
+    padding: 3%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #6666cc;
+}
 .contact-text1{
-  color: #c5c3c3cc;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: 'Comforter', cursive;
-}
-
-.contact-text2{
-  color: #c5c3c3cc;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.contact-text3{
-  color: #c5c3c3cc;
-  font-size: 18px;
+    color: #6666cc;
+    font-size: 30px;
+    font-weight: bold;
 }
 #copyright{
-  background-color: black;
-  height: 100px;
-  color: white;
-  text-align: center;
-  font-size: 25px;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
 }
